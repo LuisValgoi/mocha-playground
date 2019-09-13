@@ -1,6 +1,6 @@
 const assert = require("chai").assert;
-const hello = require("../app.js").hello;
-const addNumbers = require("../app.js").addNumber;
+const hello = require("../src/app.js").hello;
+const addNumbers = require("../src/app.js").addNumber;
 
 describe("app", () => {
 

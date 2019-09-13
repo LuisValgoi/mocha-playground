@@ -2,7 +2,7 @@
   "name": "mochatest",
   "version": "1.0.0",
   "description": "app for testing",
-  "main": "app.js",
+  "main": "./src/app.js",
   "scripts": {
     "test": "mocha ./test/*Test.js || true"
   },
