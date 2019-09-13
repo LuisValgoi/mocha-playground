@@ -1,8 +1,8 @@
 const assert = require("chai").assert;
-const hello = require("../src/app.js").hello;
-const addNumbers = require("../src/app.js").addNumber;
+const hello = require("../../src/app.js").hello;
+const addNumbers = require("../../src/app.js").addNumber;
 
-describe("app", () => {
+describe("app.js file", () => {
 
   context("hello function", () => {
     it("should return hello", () => {
