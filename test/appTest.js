@@ -1,8 +1,30 @@
 const assert = require("chai").assert;
-const app = require("../app.js");
+const hello = require("../app.js").hello;
+const addNumbers = require("../app.js").addNumber;
 
 describe("app", () => {
-  it("should return hello", () => {
-    assert.equal(app(), "hello");
+
+  context("hello function", () => {
+    it("should return hello", () => {
+      let result = hello();
+      assert.equal(result, "hello");
+    });
+
+    it("should return a string type", () => {
+      let result = hello();
+      assert.typeOf(result, "string");
+    });
+  });
+
+  context("addNumbers function", () => {
+    it("should return value bigger than 5", () => {
+      let result = addNumbers(1, 6);
+      assert.isAbove(result, 5);
+    });
+
+    it("should return a number type", () => {
+      let result = addNumbers(1, 6);
+      assert.typeOf(result, "number");
+    });
   });
 });
