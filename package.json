@@ -4,13 +4,13 @@
   "description": "app for testing",
   "main": "./src/app.js",
   "scripts": {
-    "test": "mocha ./test/*Test.js || true"
+    "test": "mocha ./test/**/*Test.js || true"
   },
   "author": "Luis Valgoi",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.0",
-    "sinon": "^7.4.2"
+    "chai-spies": "^1.0.0",
+    "mocha": "^6.2.0"
   }
 }
