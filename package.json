@@ -4,7 +4,7 @@
   "description": "app for testing",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha ./test/*Test.js"
   },
   "author": "Luis Valgoi",
   "license": "ISC",
