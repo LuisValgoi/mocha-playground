@@ -1,17 +1,21 @@
-class User {
+module.exports = class User {
   constructor() {
     this.name = null;
     this.lastName = null;
+    this.fullName = null;
   }
 
-  buildFullname(name, lastName) {
-    if (this._isAvailableToBuild(name, lastName)) {
+  buildFullName(name, lastName) {
+    if (this.isAvailableToBuildFullName(name, lastName)) {
       this.name = name;
       this.lastName = lastName;
+      if (name && lastName) {
+        this.fullName = name + " " + lastName;
+      }
     }
   }
 
-  _isAvailableToBuild(name, lastName) {
+  isAvailableToBuildFullName(name, lastName) {
     if (!name) {
       throw new Error("No name argument found");
     }
@@ -21,6 +25,17 @@ class User {
   }
 
   getFullName() {
-    return this.name + " " + this.lastName;
+    let fullName = "N/A";
+    if (this.lastName) { 
+      fullName = this.lastName;
+    }
+
+    if(this.name && !this.lastName) { 
+      fullName = this.lastName
+    } else if (this.name && this.lastName) { 
+      fullName = fullName + ", " + this.lastName;
+    }
+    return fullName;
   }
 }
+
