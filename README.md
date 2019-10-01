@@ -60,6 +60,6 @@ describe("mutiply()", () ==> {
 });
 ```
 # Extras
-- If you want to follow this project's tutorial, [click Here](https://github.com/LuisValgoi/mocha-learning/blob/master/TUTORIAL.md).
-- If you want to learn more about `mocha`, [click Here](https://github.com/LuisValgoi/mocha-learning/blob/master/MOCHA.md).
-- If you want to learn more about `chai`, [click Here](https://github.com/LuisValgoi/mocha-learning/blob/master/CHAI.md).
+- If you want to follow this project's tutorial, [click here](https://github.com/LuisValgoi/mocha-learning/blob/master/TUTORIAL.md).
+- If you want to learn more about `mocha`, [click here](https://github.com/LuisValgoi/mocha-learning/blob/master/MOCHA.md).
+- If you want to learn more about `chai`, [click here](https://github.com/LuisValgoi/mocha-learning/blob/master/CHAI.md).
