@@ -4,7 +4,9 @@
   "description": "app for testing",
   "main": "./src/app.js",
   "scripts": {
-    "test": "mocha ./test/**/*Test.js || true"
+    "test": "mocha ./test/**/*Test.js || true",
+    "coverageText": "nyc mocha ./test/**/*Test.js",
+    "coverageHTML": "nyc --reporter=html mocha ./test/**/*Test.js"
   },
   "author": "Luis Valgoi",
   "license": "ISC",
