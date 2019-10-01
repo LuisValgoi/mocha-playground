@@ -1,6 +1,16 @@
 # Welcome to the `mocha-learning` repo
 This repo was created to learn a little bit more about Mocha and Chai.
 
+# Summary
+- [What is mocha]();
+- [What is chai]();
+- [What is TDD]();
+- [What is BDD]();
+- [Why using both]();
+- [Mocha's Continuation Link]();
+- [Chai's Continuation Link]();
+- [Tutorial's Continuation Link]();
+
 # What is `mocha`?
 - JavaScript test runner framework running on Node.js.
 - Framework which provides the `describe()`, `it()` and etc.
@@ -27,33 +37,36 @@ This repo was created to learn a little bit more about Mocha and Chai.
 - Example of BDD: `A method, should receive an argument and returs its metadata`.
 
 # Why using `mocha` and `chai` ?
-- When we combine `mocha` and `chai`, we have:
-> A powerfull and quick unit testing framework using node w/ an assertion library very easy to understand and code.
+> When we combine them, we have a powerfull and quick unit testing framework on top of node w/ an assertion library which is very easy to understand and to code.
 
+only `mocha`:
 ```javascript
-
+var assert = require('assert');
+describe("mutiply()", () ==> {
+  it("should return 50 for 10 * 5", () ==> {
+    var result = mutiply(10, 5);
+    assert.equal(result, 50);
+  });
+});
 ```
 
-# What to Do First?
-- First, check the `package.json` file.
-- You will see on the `scripts` property, all the *available commands*.
+`mocha` + `chai`:
+```javascript
+var assert = require('assert');
+var expect = require('chai').expect; // new
+describe("mutiply()", () ==> {
+  it("should return 50 for 10 * 5", () ==> {
+    var result = mutiply(10, 5);
+    expect(result).to.be.equal(50); // new
+  });
+});
+```
 
-# Available Commands
-1. `npm run test`
-    - Runs all your tests.
-2. `npm run coverage`
-    - Runs the coverage for your tests w/ output in the `cmd`.
-2. `npm run coverageHTML`
-    - Runs the coverage for your tests w/ output in the `./coverage` folder w/ a `HTML` file.
+# Do you want to learn more about `mocha`?
+- [Go here]().
 
-# How did you add the `test` command?
-- Manually. 
-- For installing `mocha` and `chai`, use:
-    - `npm install --save-dev mocha`
-    - `npm install --save-dev chai`.
-- Once executed, it will appear into the `devDependencies` property.
-- Once is there, you are able to use it in the `scripts` tag as a *command*.
+# Do you want to learn more about `chai`?
+- [Go here]().
 
-# What `|| true` @ `test` property means?
-- Without it, it will generate a `log file`. [Check Here](https://user-images.githubusercontent.com/8363610/65988774-dac65300-e45e-11e9-887a-6af4ca1f0c63.png).
-- With it, it will sufix it will *not* generate a `log file`. [Check Here](![image](https://user-images.githubusercontent.com/8363610/65989123-7657c380-e45f-11e9-9bf8-621024708bc1.png)).
+# Do you want to follow this tutorial?
+- [Go here]().
