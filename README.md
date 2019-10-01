@@ -7,9 +7,9 @@ This repo was created to learn a little bit more about Mocha and Chai.
 - [What is TDD]();
 - [What is BDD]();
 - [Why using both]();
-- [Mocha's Continuation Link]();
-- [Chai's Continuation Link]();
-- [Tutorial's Continuation Link]();
+- [Mocha's Continuation Link](https://github.com/LuisValgoi/mocha-learning/blob/master/MOCHA.md);
+- [Chai's Continuation Link](https://github.com/LuisValgoi/mocha-learning/blob/master/CHAI.md);
+- [Tutorial's Continuation Link](https://github.com/LuisValgoi/mocha-learning/blob/master/TUTORIAL.md);
 
 # What is `mocha`?
 - JavaScript test runner framework running on Node.js.
@@ -63,10 +63,10 @@ describe("mutiply()", () ==> {
 ```
 
 # Do you want to learn more about `mocha`?
-- [Go here]().
+- [Click Here]().
 
 # Do you want to learn more about `chai`?
-- [Go here]().
+- [Click Here]().
 
 # Do you want to follow this tutorial?
-- [Go here]().
+- [Click Here]().
