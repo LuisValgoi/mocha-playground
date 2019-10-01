@@ -1,12 +1,12 @@
-# Welcome to the `mocha-learning` repo
-This repo was created to learn a little bit more about Mocha and Chai.
+# Welcome to the `mocha-learning`
+This repository was created to learn a little bit more about Mocha and Chai.
 
 # Summary
 - [What is mocha?](https://github.com/LuisValgoi/mocha-learning#what-is-mocha)
 - [What is chai?](https://github.com/LuisValgoi/mocha-learning#what-is-chai)
 - [What is TDD?](https://github.com/LuisValgoi/mocha-learning#what-is-tdd)
 - [What is BDD?](https://github.com/LuisValgoi/mocha-learning#what-is-bdd)
-- [Why using Mocha + Chai](https://github.com/LuisValgoi/mocha-learning#why-using-mocha-+-chai-)
+- [Why using Mocha + Chai?](https://github.com/LuisValgoi/mocha-learning#why-using-mocha-+-chai-)
 - [Extra](https://github.com/LuisValgoi/mocha-learning#extra)
 
 # What is `mocha`?
