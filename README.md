@@ -2,14 +2,12 @@
 This repo was created to learn a little bit more about Mocha and Chai.
 
 # Summary
-- [What is mocha]();
-- [What is chai]();
-- [What is TDD]();
-- [What is BDD]();
-- [Why using both]();
-- [Mocha's Continuation Link](https://github.com/LuisValgoi/mocha-learning/blob/master/MOCHA.md);
-- [Chai's Continuation Link](https://github.com/LuisValgoi/mocha-learning/blob/master/CHAI.md);
-- [Tutorial's Continuation Link](https://github.com/LuisValgoi/mocha-learning/blob/master/TUTORIAL.md);
+- [What is mocha?](https://github.com/LuisValgoi/mocha-learning#what-is-mocha);
+- [What is chai?](https://github.com/LuisValgoi/mocha-learning#what-is-chai);
+- [What is TDD?](https://github.com/LuisValgoi/mocha-learning#what-is-tdd);
+- [What is BDD?](https://github.com/LuisValgoi/mocha-learning#what-is-bdd);
+- [Why using Mocha + Chai](https://github.com/LuisValgoi/mocha-learning#why-using-mocha-+-chai-);
+- [Extra](https://github.com/LuisValgoi/mocha-learning#extra);
 
 # What is `mocha`?
 - JavaScript test runner framework running on Node.js.
@@ -36,7 +34,7 @@ This repo was created to learn a little bit more about Mocha and Chai.
   - _"Don't write a test, describe a behavior"_
 - Example of BDD: `A method, should receive an argument and returs its metadata`.
 
-# Why using `mocha` and `chai` ?
+# Why using `mocha` + `chai` ?
 > When we combine them, we have a powerfull and quick unit testing framework on top of node w/ an assertion library which is very easy to understand and to code.
 
 only `mocha`:
@@ -61,12 +59,7 @@ describe("mutiply()", () ==> {
   });
 });
 ```
-
-# Do you want to learn more about `mocha`?
-- [Click Here]().
-
-# Do you want to learn more about `chai`?
-- [Click Here]().
-
-# Do you want to follow this tutorial?
-- [Click Here]().
+# Extras
+- If you want to follow this project's tutorial, [click Here: ](https://github.com/LuisValgoi/mocha-learning/blob/master/TUTORIAL.md).
+- If you want to learn more about `mocha` [click Here: ](https://github.com/LuisValgoi/mocha-learning/blob/master/MOCHA.md).
+- If you want to learn more about `chai` [click Here: ](https://github.com/LuisValgoi/mocha-learning/blob/master/CHAI.md).
