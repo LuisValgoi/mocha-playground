@@ -61,3 +61,26 @@ describe('hooks', function() {
   });
 });
 ```
+
+# Exclusive Tests
+- It allows you to run only the specified suite or test-case by appending.
+- Real use case:
+    - Open [this](![image](https://user-images.githubusercontent.com/8363610/66083828-89dc5a80-e543-11e9-8130-704cc721ead9.png)) image
+    - How would you run the `2nd` test inside of `countItems`?
+    - Did you face some difficulties to find it?
+    - Wouldn't it be better if you could run only the one you want?
+    - If so, append the `.only` before the test case.
+        - Done :)
+```javascript
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it.only('should return -1 unless present', function() {
+      // ...
+    });
+
+    it('should return the index when present', function() {
+      // ...
+    });
+  });
+});
+```
