@@ -1,4 +1,4 @@
-# Welcome to the `mocha-learning`
+# Welcome
 This repository was created to learn a little bit more about Mocha and Chai.
 
 # Summary
