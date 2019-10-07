@@ -1,4 +1,4 @@
-# Welcome to the continuation of this tutorial.
+# Welcome
 - Once you have a context of these technologies, let's continue w/ this repo and its specific things.
 
 # What to Do First?
