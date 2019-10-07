@@ -80,7 +80,7 @@ describe('hooks', function() {
 - The command `.only` allows you to run only the specified suite or test-case by appending.
 
 ### Real use case:
-  - Open [this](![image](https://user-images.githubusercontent.com/8363610/66083828-89dc5a80-e543-11e9-8130-704cc721ead9.png)) image.
+  - Open [this](https://user-images.githubusercontent.com/8363610/66083828-89dc5a80-e543-11e9-8130-704cc721ead9.png) image.
   - How would you run the `2nd` test inside of `countItems`?
   - Did you face some difficulties to find it?
   - Wouldn't it be better if you could run only the one you want?
