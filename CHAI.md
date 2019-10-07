@@ -62,6 +62,7 @@ expect(tea).to.have.property('flavors').with.lengthOf(3);
 `.deep`
 ```javascript
 expect({a: 1}).to.deep.equal({a: 1});
+expect({a: 1}).to.be.eql({a: 1});
 expect([{a: 1}]).to.deep.include({a: 1});
 expect([{a: 1}]).to.have.deep.members([{a: 1}]);
 expect({x: {a: 1}}).to.have.deep.property('x', {a: 1});
