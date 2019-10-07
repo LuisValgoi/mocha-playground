@@ -37,6 +37,12 @@
 - With it, it will sufix it will *not* generate a `log file`. [Check Here](![image](https://user-images.githubusercontent.com/8363610/65989123-7657c380-e45f-11e9-9bf8-621024708bc1.png)).
 
 # Testing Objects
+- Normally, we use these fake objects through libraries, such as [Sinon](https://sinonjs.org/).
+- There are different types of testing objects:
+    - Fake
+    - Stubs
+    - Spies
+    - Mocks
 
 `Fake Objects`
 - have working implementations closer to a real-world implementation.
