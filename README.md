@@ -8,6 +8,9 @@ This repository was created to learn a little bit more about Mocha and Chai.
 - [What is BDD?](https://github.com/LuisValgoi/mocha-learning#what-is-bdd)
 - [Why using Mocha + Chai?](https://github.com/LuisValgoi/mocha-learning#why-using-mocha-+-chai-)
 - [Extra](https://github.com/LuisValgoi/mocha-learning#extra)
+  - [Testing In Details](https://github.com/LuisValgoi/mocha-learning/blob/master/TUTORIAL.md)
+  - [Mocha In Details](https://github.com/LuisValgoi/mocha-learning/blob/master/MOCHA.md)
+  - [Chai In Details](https://github.com/LuisValgoi/mocha-learning/blob/master/CHAI.md)
 
 # What is `mocha`?
 - JavaScript test runner framework running on Node.js.
