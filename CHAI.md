@@ -1,17 +1,17 @@
-# Welcome to the Chai's continuation of this tutorial
+# Welcome
 - You already have a good picture of what is the Chai assertion library.
 - Now, let's go a little depper into it.
 
 # Official Documentation Link
-- https://www.chaijs.com/
+- The official documentation link: https://www.chaijs.com/
 
 # Helpers
 - [JavaScript unit testing tools Cheat Sheet](https://www.cheatography.com/apk/cheat-sheets/javascript-unit-testing-tools/pdf/)
 - [The Ultimate Unit Testing Cheat-sheet](https://gist.github.com/yoavniran/1e3b0162e1545055429e#sinon-chai)
 - [Language Chains from Aaron](http://aaronsofaly.github.io/chai-docs/api/bdd/)
 
-# How can we install into our project?
-- Throught the `npm install chai` command.
+# Installing
+- We can install into our projecto through: `npm install chai`.
 
 # What is CHAI?
 > Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.

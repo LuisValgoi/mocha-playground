@@ -1,28 +1,20 @@
-# Welcome to the Mocha's continuation of this tutorial
+# Welcome
 - You already have a good picture of what is the Mocha framework.
 - Now, let's go a little depper into it.
 
-# Official Documentation Link
-- https://mochajs.org/
+# Documentation
+- The official documentation link: https://mochajs.org/
 
 # Helpers
 - [Mocha's API Documentation](https://mochajs.org/api/index.html)
 - [Get started with Mocha testing](https://ricostacruz.com/til/get-started-with-mocha)
 - [A quick and complete guide to Mocha testing](https://blog.logrocket.com/a-quick-and-complete-guide-to-mocha-testing-d0e0ea09f09d/)
 
-# How can we install into our project?
-- Throught the `npm install mocha` command.
+# Installing
+- We can install into our projecto through: `npm install mocha`.
 
 # What is Mocha?
 > Mocha is a feature-rich JavaScript test framework running on Node.js. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases
-
-# Running Script
-- Set up a test script in package.json:
-```javascript
-"scripts": {
-  "test": "mocha"
-}
-```
 
 # Other Testing Frameworks
 Sometimes we asked ourselves which are the other javascript testing frameworks...
