@@ -36,9 +36,9 @@
 - Without it, it will generate a `log file`. [Check Here](https://user-images.githubusercontent.com/8363610/65988774-dac65300-e45e-11e9-887a-6af4ca1f0c63.png).
 - With it, it will sufix it will *not* generate a `log file`. [Check Here](![image](https://user-images.githubusercontent.com/8363610/65989123-7657c380-e45f-11e9-9bf8-621024708bc1.png)).
 
-# Testing Objects
+# Test Doubles
 - Normally, we use these fake objects through libraries, such as [Sinon](https://sinonjs.org/).
-- There are different types of testing objects:
+- There are different types of test doubles:
     - Fake
     - Stubs
     - Spies
