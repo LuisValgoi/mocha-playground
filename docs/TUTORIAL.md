@@ -37,7 +37,7 @@
 - With it, it will sufix it will *not* generate a `log file`. [Check Here](![image](https://user-images.githubusercontent.com/8363610/65989123-7657c380-e45f-11e9-9bf8-621024708bc1.png)).
 
 # Test Doubles
-- Normally, we use these fake objects through libraries, such as [Sinon](https://sinonjs.org/).
+- Normally, we use these "objects" through libraries, such as [Sinon](https://sinonjs.org/).
 - There are different types of test doubles:
     - Fake
     - Stubs
@@ -76,7 +76,7 @@ describe('UsersController getAll()', () => {
     let findAll = sinon.stub(Database, 'findAll').returns(expectedDatabaseResponse);
 
     // act
-    let response = new UsersController(Database).getAll();
+    let response = new UsersController(Database).findAll();
 
     // assert
     sinon.assert.calledWith(findAll, 'users');
@@ -97,7 +97,7 @@ describe('UsersController getAll()', () => {
     let findAll = sinon.spy(Database, 'findAll');
     
     // act
-    new UsersController(Database).getAll();
+    new UsersController(Database).findAll();
     
     // assert
     sinon.assert.calledWith(findAll, 'users');
@@ -121,7 +121,7 @@ describe('UsersController getAll()', () => {
     databaseMock.expects('findAll').once().withArgs('users');
 
     // act
-    new UsersController(Database).getAll();
+    new UsersController(Database).findAll();
 
     // expectations
     databaseMock.verify();
