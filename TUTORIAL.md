@@ -76,7 +76,7 @@ describe('UsersController getAll()', () => {
     let findAll = sinon.stub(Database, 'findAll').returns(expectedDatabaseResponse);
 
     // act
-    let response = new UsersController(Database).getAll();
+    let response = new UsersController(Database).findAll();
 
     // assert
     sinon.assert.calledWith(findAll, 'users');
@@ -97,7 +97,7 @@ describe('UsersController getAll()', () => {
     let findAll = sinon.spy(Database, 'findAll');
     
     // act
-    new UsersController(Database).getAll();
+    new UsersController(Database).findAll();
     
     // assert
     sinon.assert.calledWith(findAll, 'users');
@@ -121,7 +121,7 @@ describe('UsersController getAll()', () => {
     databaseMock.expects('findAll').once().withArgs('users');
 
     // act
-    new UsersController(Database).getAll();
+    new UsersController(Database).findAll();
 
     // expectations
     databaseMock.verify();
