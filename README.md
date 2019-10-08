@@ -1,5 +1,5 @@
 # Welcome
-This repository was created to learn a little bit more about Mocha and Chai.
+This repository was created to learn a little bit more about Mocha, Chai & Sinon.
 
 # Summary
 - [What is mocha?](https://github.com/LuisValgoi/mocha-learning#what-is-mocha)
