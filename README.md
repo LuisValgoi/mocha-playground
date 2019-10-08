@@ -8,9 +8,9 @@ This repository was created to learn a little bit more about Mocha, Chai & Sinon
 - [What is BDD?](https://github.com/LuisValgoi/mocha-learning#what-is-bdd)
 - [Why using Mocha + Chai?](https://github.com/LuisValgoi/mocha-learning#why-using-mocha-+-chai-)
 - [Extra](https://github.com/LuisValgoi/mocha-learning#extra)
-  - [Testing In Details](https://github.com/LuisValgoi/mocha-learning/blob/master/TUTORIAL.md)
-  - [Mocha In Details](https://github.com/LuisValgoi/mocha-learning/blob/master/MOCHA.md)
-  - [Chai In Details](https://github.com/LuisValgoi/mocha-learning/blob/master/CHAI.md)
+  - [Testing In Details](https://github.com/LuisValgoi/mocha-learning/blob/master/docs/TUTORIAL.md)
+  - [Mocha In Details](https://github.com/LuisValgoi/mocha-learning/blob/master/docs/MOCHA.md)
+  - [Chai In Details](https://github.com/LuisValgoi/mocha-learning/blob/master/docs/CHAI.md)
 
 # What is `mocha`?
 - JavaScript test runner framework running on Node.js.
@@ -63,6 +63,6 @@ describe("mutiply()", () ==> {
 });
 ```
 # Extra
-- If you want to follow this project's tutorial, [click here](https://github.com/LuisValgoi/mocha-learning/blob/master/TUTORIAL.md).
-- If you want to learn more about `mocha`, [click here](https://github.com/LuisValgoi/mocha-learning/blob/master/MOCHA.md).
-- If you want to learn more about `chai`, [click here](https://github.com/LuisValgoi/mocha-learning/blob/master/CHAI.md).
+- If you want to follow this project's tutorial, [click here](https://github.com/LuisValgoi/mocha-learning/blob/master/docs/TUTORIAL.md).
+- If you want to learn more about `mocha`, [click here](https://github.com/LuisValgoi/mocha-learning/blob/master/docs/MOCHA.md).
+- If you want to learn more about `chai`, [click here](https://github.com/LuisValgoi/mocha-learning/blob/master/docs/CHAI.md).
